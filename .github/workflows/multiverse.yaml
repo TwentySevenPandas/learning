@@ -4,8 +4,6 @@ push:
 pull_request:
 types: [approved, opened, edited, reopened]
 workflow_dispatch:
-
-
 jobs:
 pytest:
 name: Test the Demo module
