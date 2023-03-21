@@ -5,4 +5,4 @@ def test_concat():
 assert concat('foo', 'bar') == 'foo-bar'
 def test_uppercase():
 assert uppercase('foo') == 'FOO'
-assert uppercase('bar') == 'BAR
+assert uppercase('bar') == 'BAR'
