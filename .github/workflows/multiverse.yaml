@@ -2,7 +2,7 @@ name: Multiverse Demo Workflow
 on:
     push:
     pull_request:
-      types: [approved, opened, edited, reopened]
+      types: [closed, opened, edited, reopened]
     workflow_dispatch:
 jobs:
   pytest:
